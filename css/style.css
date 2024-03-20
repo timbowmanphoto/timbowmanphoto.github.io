@@ -25,10 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: Monument Grotesk,Helvetica,Arial,sans-serif;
+    font-family: Helvetica,Arial,sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -81,6 +78,15 @@ body {
 .grid-item {
     margin-bottom: 5px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    padding: 10px 0;
+}
+
 @media only screen and (max-width: 600px) {
 
     .grid {

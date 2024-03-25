@@ -146,4 +146,33 @@ nav li a {
         width: 100%;
     }
 
+    /* Nav */
+
+    nav {
+        right: 60px;
+    }
+
+    /* About */
+    .about-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .about-content .text {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    .about-content {
+        height: 100%;
+    }
+
+    .about-content .img img {
+        width: 100% !important;
+      }
+    .about-content .img {
+        padding: 0 10px;
+      }
+
 }
